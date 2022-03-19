@@ -1,0 +1,10 @@
+{
+    ".then().catch() block genereator": {
+        "prefix": ".then",
+        "body": [
+            ".then(response => console.log(response))",
+            ".catch(error => console.log(\"error :\",error))",
+        ],
+        "description": "creates then() and catch() block for starter template"
+    }
+}
